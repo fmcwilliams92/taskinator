@@ -89,4 +89,5 @@ var createTaskActions = function(taskId) {
   return actionContainerEl;
 };
 
+// event listener
 formEl.addEventListener("submit", taskFormHandler);
